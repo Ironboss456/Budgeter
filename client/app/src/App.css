@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#Title{
+  color: rgb(0, 0, 0);
+  vertical-align: top;
+  font-size: x-large;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#Upload{
+  float: top;
+  float: right;
+  padding: 10px 20px;
+  margin-right: 50px;
 }
